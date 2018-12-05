@@ -8,8 +8,8 @@ public class DatabaseConnection {
 	private static DatabaseConnection instance;
 	private Connection connection;
 	private String url = "jdbc:mysql://localhost/unitbv";
-	private String username = "insight18"; // your username
-	private String password = "insight18"; // your password
+	private String username = "root"; // your username
+	private String password = "admin"; // your password
 
 	private DatabaseConnection() throws SQLException {
 		try {
